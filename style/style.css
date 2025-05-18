@@ -1,0 +1,33 @@
+/* ===== CSS Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Base Styles ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Images ===== */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ===== Variables (Optional) ===== */
+:root {
+  --primary-color: #007bff;
+  --font-main: 'Segoe UI', sans-serif;
+}
