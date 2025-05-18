@@ -1,37 +1,158 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </head>
-  <body>
-    
+    <title>Front page -RNH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style  -->
+    <!-- owl carousel  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+
+    <!-- AOS library  -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <!-- style  -->
+
+</head>
+
+<body>
+
 
     <!-- header start from here  -->
 
-    <header class="container">
+    <header>
 
         <!-- announcement bar  -->
 
-        <div class="col-6">
-            <p>News : Understanding High Cholesterol: Causes, Risks, and Management</p>
-        </div>
-        <div class="col-6">
-            <div>
-                <p>Admin</p>
+        <div class=" announcement-bar">
+
+            <div class="container">
+
+                <div class="row flex items-center ">
+
+                    <div class="col-6 ">
+                        <p>News : <span id="news-text">Understanding High Cholesterol: Causes, Risks, and
+                                Management</span></p>
+
+
+                    </div>
+                    <div class="col-6 d-flex justify-content-end gap-4">
+                        <div>
+                            <p>Admin</p>
+                        </div>
+
+                        <div class="flex right_announce">
+                            <a href="">
+                                <span><i class="fa-brands fa-facebook-f"></i></span>
+                            </a>
+                            <a href="">
+                                <span><i class="fa-brands fa-x-twitter"></i></span>
+                            </a>
+                            <a href="">
+                                <span><i class="fa-brands fa-linkedin-in"></i></span>
+                            </a>
+                            <a href="">
+                                <span><i class="fa-brands fa-youtube"></i></span>
+                            </a>
+                            <a href="">
+                                <span><i class="fa-brands fa-instagram"></i></span>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
-            <div>
-             <span><i class="fa-brands fa-facebook-f"></i></span>
-             <span><i class="fa-brands fa-x-twitter"></i></span>
-             <span><i class="fa-brands fa-linkedin-in"></i></span>
-             <span><i class="fa-brands fa-youtube"></i></span>
-             <span><i class="fa-brands fa-instagram"></i></span>
+        </div>
+
+        <!-- announcement bar ends  -->
+
+
+        <!-- middle header start -->
+
+        <div class="middle-header py-3">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 d-flex items-center gap-3 middle-header-logo">
+                        <span><i class="fa-solid fa-phone-volume"></i></span>
+                        <div>
+                            <p>Emergency 24 Hours</p>
+                            <a href="tel:+91 9955564596">+91 9955564596</a>
+                        </div>
+                    </div>
+
+                    <div class="col-3 d-flex items-center gap-3 middle-header-logo">
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <div>
+                            <p>Send us a Mail</p>
+                            <a href="mailto:info@brimshospitals.com">info@brimshospitals.com</a>
+                        </div>
+                    </div>
+
+                    <div class="col-3 d-flex items-center gap-3 middle-header-logo">
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <div>
+                            <p>Our Location</p>
+                            <p> Rambagh ,Taraiya,Saran,Bihar </p>
+                        </div>
+                    </div>
+
+                    <div class="col-3 d-flex items-center gap-3 middle-header-logo">
+                        <span><i class="fa-solid fa-clock"></i></span>
+                        <div>
+                            <p>Working Hours</p>
+                            <p>Mon - Sun 08:00 to 19:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- middle header ends  -->
+
+
+        <!-- menu item  -->
+
+        <div class="container headermenu">
+            <div class="logo"> <img src="/images/RNH logo.png" alt="logo"> </div>
+
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><button class="appointment-btn d-block d-md-none">Book Appointment</button></li>
+                </ul>
+            </nav>
+
+            <button class="appointment-btn d-md-block d-none">Book Appointment</button>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </div>
+
+
 
     </header>
 
@@ -39,6 +160,119 @@
     <!-- header ends from here  -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-  </body>
+
+
+    <!-- banner section start from here  -->
+
+
+    <div class="contain">
+        <div id="bannersection" class="owl-carousel owl-theme">
+            <div class="item" id="banner1">
+
+                <div class="" data-aos="fade-down">
+                    <h3>Medicine is a science of uncertainty and an art of probability</h3>
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="banner-btn1"><a href="#">Appointment</a></div>
+                    <div class="banner-btn2"><a href="#">View Details</a></div>
+                </div>
+            </div>
+            <div class="item" id="banner2">
+                <h3>Medicine is a science of uncertainty and an art of probability</h3>
+            </div>
+            <div class="item" id="banner3">
+                <h3>Medicine is a science of uncertainty and an art of probability</h3>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aspernatur illo mollitia maiores nihil ad veritatis
+        reprehenderit rerum porro error? Saepe, sed dolore eum sit voluptatum ullam blanditiis rem reiciendis sequi
+        velit, vero, commodi dignissimos fugiat repellendus ducimus ipsum? Maxime neque aliquam aspernatur. Sunt, dolor
+        neque! Sequi nam magnam quaerat quam numquam tenetur tempora, eveniet nemo dolor fuga harum aliquam vel modi id
+        perferendis, debitis voluptatum nihil. Earum reprehenderit molestiae optio eum non, quos tempore, veniam nisi
+        sint magni facere beatae temporibus? Pariatur, obcaecati facilis cumque consequatur iusto alias neque doloribus
+        corporis illum qui repellendus assumenda laborum unde officia expedita quisquam autem sit dolor quas amet quasi
+        vitae sapiente porro aliquam. Sequi doloremque illum minus cupiditate eligendi eius ab obcaecati inventore
+        architecto. Voluptas eaque quo placeat, animi quasi doloribus dolorem, numquam quis error quisquam earum? Vel
+        repellendus, dolores impedit accusantium earum maiores facere ex optio? Quo, tempore eum? Ex dolorem quas iste
+        veniam! Quas obcaecati eum magni optio impedit quod, corporis recusandae voluptatum quidem facere in maiores
+        odit ex laboriosam modi, delectus magnam rerum. Facilis autem deserunt velit nobis quas, harum distinctio totam
+        doloribus saepe nihil quaerat enim necessitatibus pariatur tenetur, adipisci non vitae reiciendis eius magnam
+        minus libero! Commodi odit impedit maiores ipsa dolorum vero dolorem dolores, quas, illum qui aliquid eos
+        asperiores consequuntur possimus dignissimos excepturi accusantium officia nam nulla mollitia magnam! Eligendi
+        aut odit reiciendis esse veniam consequuntur aperiam doloribus porro maxime. Ipsum earum consequatur accusamus
+        iusto sunt totam ratione adipisci ducimus odit, quia dolorem! Maiores magni quaerat, eligendi rerum ullam
+        libero, officiis aut quam corrupti quod omnis, saepe voluptate quis iste odio temporibus doloribus laboriosam?
+        Laborum atque, illum assumenda unde, saepe ea debitis cupiditate dignissimos natus reprehenderit similique,
+        expedita suscipit incidunt animi deleniti quaerat rerum commodi magni qui blanditiis repellat. Alias, deserunt
+        quam! Dicta, odit! Impedit molestias ipsa commodi amet placeat natus, sunt asperiores error tempore ab aut
+        neque, nisi in illum ullam accusantium fuga soluta similique corrupti expedita ut officia a laborum. Praesentium
+        dicta nulla eligendi necessitatibus aut, recusandae nihil cumque iusto. Illum vitae repellat harum ipsam nemo,
+        quos quaerat rerum eveniet, magnam suscipit numquam eum saepe esse labore obcaecati qui dolore, veniam earum.
+        Eius itaque, cum, perspiciatis ipsam pariatur deleniti placeat sapiente ut impedit enim molestias aut quod
+        dignissimos recusandae voluptatem quidem sed necessitatibus eos quia asperiores labore. Ex temporibus eius
+        iusto, mollitia dolorum libero velit repellat modi consequuntur a doloremque quis quibusdam illo deleniti
+        commodi saepe eveniet in blanditiis at! Adipisci sit nulla libero mollitia dignissimos fugiat, a consequuntur
+        eos accusantium corporis nihil deleniti, iste repudiandae! Incidunt magni aliquam quia numquam velit maiores
+        error, doloribus sed vitae expedita, eum voluptatum exercitationem, libero ratione. Veniam accusamus magni harum
+        cupiditate commodi quidem adipisci nesciunt, doloremque corrupti sunt maxime consectetur tenetur laborum
+        necessitatibus eaque dolorem quasi perspiciatis cumque doloribus possimus cum a! Nostrum voluptas eum, quasi
+        illum praesentium nemo eius repudiandae sunt eaque expedita iure provident nesciunt. Vel amet voluptatem ipsa
+        quae nostrum magni aut reiciendis provident. Quae a facilis eum! Inventore minima molestiae officiis temporibus
+        cumque fugiat eius ut repellendus eum, delectus fuga tenetur voluptatibus nulla laborum itaque dignissimos esse
+        tempore! Dolores nobis voluptatibus repellendus commodi quo dolor sint inventore beatae accusantium, suscipit
+        reiciendis quibusdam illo debitis reprehenderit odio provident tenetur quam pariatur. Quo, aliquid distinctio
+        laboriosam perspiciatis ad amet illum at rem voluptates. Quibusdam minima necessitatibus impedit praesentium
+        saepe ullam, quis, eius ratione debitis harum asperiores totam itaque laborum repellendus, a illo temporibus
+        provident. Libero incidunt ducimus qui. Vel ratione qui, doloremque ipsa quaerat ipsam nihil dolorum eos
+        tenetur. Consequuntur porro placeat tempore earum, est labore quis error quo maxime fugiat voluptatibus vitae
+        odio neque perferendis laboriosam dolorem nobis, consectetur iste excepturi culpa aliquid aperiam deleniti?
+        Voluptatem quos aliquam, nostrum fugiat, rerum dolores, praesentium est numquam autem id provident nihil? Ad
+        beatae labore id quia quos omnis ipsum fugit accusantium praesentium harum nostrum consequuntur, animi
+        repellendus temporibus. Suscipit cum earum quo voluptates at repellat quisquam corrupti reiciendis nesciunt
+        officia consequuntur eius voluptatem ipsa deleniti mollitia explicabo reprehenderit, sapiente, velit facere?
+        Velit molestiae, ratione possimus nemo laudantium at eos repellat perferendis doloribus iure dolores libero
+        earum mollitia recusandae eum autem odit consequuntur blanditiis enim doloremque saepe ut nihil. Quos aliquam
+        inventore obcaecati, deleniti rerum incidunt mollitia exercitationem recusandae error reprehenderit iste aut at,
+        amet eum, odio facere temporibus cupiditate laboriosam ducimus tenetur doloribus optio nesciunt! Ipsa qui nam
+        omnis possimus velit molestiae voluptates dolores quia ea amet, accusantium eum distinctio repudiandae quae
+        dolorem perspiciatis adipisci quasi. Laborum et sed minus facere, laboriosam temporibus non unde obcaecati
+        labore excepturi commodi omnis voluptatum rerum, neque ea explicabo ipsa! Alias fugiat laborum ea, architecto
+        reprehenderit ipsum aliquam numquam eos reiciendis exercitationem hic obcaecati possimus nemo aut laboriosam
+        distinctio ipsa aliquid optio beatae sequi magnam quibusdam repudiandae officiis atque. Amet debitis asperiores
+        voluptates dolores veritatis illum vel impedit repudiandae autem quaerat inventore iure voluptas, accusamus
+        tempora cumque sit architecto qui, quo mollitia quasi error labore, doloremque incidunt? Officia, ut praesentium
+        quas expedita error atque dolorem blanditiis libero illum quisquam, velit ea nam in magnam consequuntur optio
+        reiciendis porro fugiat magni ratione voluptatem ad eius. Expedita culpa quas repellat repudiandae praesentium
+        perspiciatis sapiente voluptatem. Consequuntur eaque fuga aspernatur architecto illo perferendis, reiciendis ex
+        officia necessitatibus quibusdam sunt aliquid reprehenderit expedita eius doloribus quas vitae, a sit. Repellat
+        tempora nesciunt ipsa saepe, dolorum asperiores omnis suscipit assumenda, reprehenderit vitae eligendi quisquam.
+        Sunt, facilis. Sequi consequuntur commodi dolorum, dolores rem qui error magnam natus sint dolore, saepe
+        praesentium ullam inventore eius, asperiores libero tempora. Molestiae reiciendis excepturi cumque animi
+        explicabo, odio praesentium ab sunt perspiciatis eos nostrum alias laborum cum. Beatae placeat officiis veniam
+        rerum atque eius illo. Perspiciatis labore dignissimos eius aut dolorem magni distinctio dolor eaque! Numquam
+        possimus, exercitationem ad quis nam tempore modi, amet maxime eaque accusamus recusandae ratione provident
+        totam odit nemo eveniet officia sapiente esse ipsa explicabo tenetur! At libero adipisci in? Suscipit, magnam
+        eius culpa, ipsam harum neque commodi facere cumque deserunt nulla dolorem veritatis? Reiciendis, placeat ex.
+        Iure labore assumenda est repellendus corporis, aliquam dolores?</p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+</body>
+
+
+<script src="js/style.js"></script>
+
+
 </html>
