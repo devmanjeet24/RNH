@@ -234,13 +234,200 @@ nav {
     flex-direction: column;
 }
 
-/* .item {
-  width: 200px;
-  height: 200px;
-  margin: 50px auto;
-  padding-top: 75px;
-  background: rgba(255,85,0, .7);
-  text-align: center;
-  color: #4E4C48;
-  font-size: 1.5em;
-} */
+#bannersection .item:before {
+    position: absolute;
+    content: "";
+    background: #31313169;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#bannersection .item h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.banner-btn1 {
+    border: 2px solid #eee;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.banner-btn1:before {
+    position: absolute;
+    content: "";
+    background: var(--primary-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner-btn1:hover:before{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.banner-btn2 {
+    border: 2px solid #eee;
+    padding: 10px 30px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.banner-btn2:before {
+    position: absolute;
+    content: "";
+    background: var(--primary-color);
+    top: 0;
+    left: 0;
+    width: 1000%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner-btn2:hover:before{
+    width: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner-btn1 a, .banner-btn2 a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* lowr banner section start from her  */
+
+.lower_banner {
+    position: relative;
+    top: -80px;
+    z-index: 999;
+}
+
+.bannerText {
+    background: var(--primary-color);
+    padding: 30px;
+}
+
+.bannerText h4 {
+    font-size: 32px;
+    color: #eee;
+    line-height: 2;
+}
+.bannerText p {
+    font-size: 18px;
+    color: #DADADA;
+}
+
+
+
+
+/* SERVICES SECTION START FROM HERE  */
+
+.the_cousell .service_box {
+    padding: 20px 20px;
+    margin-bottom: 1rem;
+}
+.samehgt {
+    height: 345px;
+}
+.service_box {
+    border: 2px dotted #315d88;
+    padding: 25px 25px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tags {
+    position: relative;
+}
+
+.image-box {
+    text-align: center;
+}
+.image-box img {
+    background: #f9f7f7;
+    padding: 5px;
+    border-radius: 95px;
+    transition: all 0.3s ease-in-out;
+    width: 78px;
+}
+
+.swap img {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.swap img:last-child {
+    display: none;
+}
+.image-box img {
+    background: #f9f7f7;
+    padding: 5px;
+    border-radius: 95px;
+    transition: all 0.3s ease-in-out;
+    width: 78px;
+}
+
+.swap img {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.service_box:hover {
+    background: #eee;
+    color: #000000;
+    transform: translateY(-10px);
+}
+
+.service_box:hover .image-box img {
+    background: #44c4f3;
+    transform: scale(1.1);
+}
+
+.swap:hover img:first-child {
+    display: none;
+}
+
+.service_box:hover .image-box img
+ {
+    background: #44c4f3;
+    transform: scale(1.1);
+}
+
+.swap:hover img:last-child {
+    display: inline-block;
+}
+
+.image-box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* gallery section sytart from her  */
+.mediaGallery .col-3 {
+    padding: 0;
+}
