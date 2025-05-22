@@ -632,3 +632,133 @@ h3.footer-heading::before {
 
 
 /* Experienced team ends from here  */
+
+
+
+
+/* Testimonial section start from here  */
+.testisec img {
+    max-width: 100px;
+    border-radius: 100px;
+}
+
+div#testimonialsection{
+    text-align: center;
+}
+
+.testiimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testisec p {
+    font-size: 20px;
+    color: #454545;
+}
+
+.testimonial-section {
+    background: #ebebeb;
+    padding: 60px 0;
+}
+
+#testimonialsection .owl-dots .owl-dot.active span{
+    background: var(--primary-color) !important;
+}
+
+
+
+
+
+/* News health css start from here  */
+
+.healthimage img {
+    width: 100%;
+}
+
+.healthimage {
+    position: relative;
+}
+
+
+.health-text {
+    background: #eee;
+    position: absolute;
+}
+
+section#healthsection {
+    height: 160vh;
+}
+
+.health-text {
+    background: #eeeeee;
+    position: absolute;
+    width: 90%;
+    top: 81%;
+    right: 0;
+    padding: 40px;
+}
+
+.health-text h3 {
+    font-size: 22px;
+    color: var(--primary-color);
+    font-family: "PT Sans", sans-serif;
+}
+
+/* New health css ends from here  */
+
+
+
+/* tabsection start from here  */
+.tbsec {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tbsec .left-sidebar {
+    width: 27%;
+}
+
+.tbsec .right-sidebar {
+    width: 67%;
+}
+
+.left-sidebar .nav-link.active {
+    background: none;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.left-sidebar .nav-link{
+    border-bottom: 3px solid #eee;
+    border-radius: 0;
+}
+
+.tab-content-right h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.tab-content-right a {
+    /* text-decoration: underline; */
+    background: #eee;
+    padding: 10px;
+    border-radius: 12px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: 500;
+     transition: all 0.3s ease-in-out;
+}
+
+.tab-content-right a:hover{
+    transition: all 0.3s ease-in-out;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+/* tabsection ends from here  */

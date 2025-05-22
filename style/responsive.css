@@ -1,24 +1,136 @@
 @media (max-width: 768px) {
-      .nav-links {
-        flex-direction: column;
-        background: #0a2540;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        padding: 20px 0;
-        display: none;
-      }
+  .nav-links {
+    flex-direction: column;
+    background: var(--primary-color);
+    position: absolute;
+    top: 82px;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: none;
+  }
 
-      .nav-links.active {
-        display: flex;
-      }
+  .nav-links.active {
+    display: flex;
+    z-index: 999;
+  }
 
-      .hamburger {
-        display: flex;
-      }
+  .hamburger {
+    display: flex;
+  }
 
-      .appointment-btn {
-        margin-top: 10px;
-      }
-    }
+  /* .appointment-btn {
+    margin-top: 10px;
+  } */
+
+
+
+
+
+  #navLinks li {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 12px;
+  }
+
+  #navLinks li:last-child {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  #navLinks li a {
+    color: #eee;
+  }
+
+
+  /* BANNER SECTION  */
+  .banner-btn {
+    flex-direction: column;
+  }
+
+  .lower_banner {
+    top: unset !important;
+  }
+
+  .tbsec {
+    flex-direction: column;
+  }
+
+  .tbsec .left-sidebar {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+
+  .tbsec .right-sidebar {
+    width: 100%;
+  }
+
+  .tab-btn {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .tab-content-right a {
+    width: 50%;
+  }
+
+  .mediaGallery {
+    flex-direction: column;
+  }
+
+  .gallery_bov .plusimage {
+    opacity: 1;
+  }
+
+  .gallery_bov .gallery-text {
+    background: var(--primary-color);
+    color: #fff;
+    bottom: 0;
+  }
+
+  .health-text {
+    width: 100%;
+    position: unset;
+    top: unset;
+    right: unset;
+  }
+
+  section#healthsection {
+    height: unset;
+  }
+
+  footer {
+    padding: 40px 0px 30px;
+  }
+
+  h3.footer-heading{
+    margin-bottom: 12x;
+  }
+
+  .powred-footer .container{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer img.footer-logo {
+    width: 50%;
+    margin-bottom: 37px;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+ 
+}
